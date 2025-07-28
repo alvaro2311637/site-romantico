@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Álvaro ❤️ Gabriella - Para Minha Princesa, Você é o Amor da Minha Vida</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Playfair+Display:wght@300;400;500;600&family=Inter:wght@300;400;500&family=Great+Vibes&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
+    <meta name="description" content="Uma página especial dedicada ao amor eterno de Álvaro e Gabriella - Para minha princesa, você é o amor da minha vida">
+</head>
+<body>
+    <!-- Partículas de fundo -->
+    <div class="particles" id="particles"></div>
+    
+    <!-- Seção Hero -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="romantic-quote">
+                <p class="quote-text">"Para minha princesa..."</p>
+            </div>
+            
+            <div class="heart-decoration">
+                <div class="heart"></div>
+                <div class="heart-pulse"></div>
+            </div>
+            
+            <h1 class="couple-names">
+                <span class="name alvaro">Álvaro</span>
+                <span class="heart-symbol">💖</span>
+                <span class="name gabriella">Gabriella</span>
+            </h1>
+            
+            <p class="romantic-phrase main-phrase">Você é o amor da minha vida</p>
+            <p class="romantic-subphrase">Meu coração bate só por você</p>
+            
+            <div class="love-declaration">
+                <div class="declaration-card">
+                    <p class="declaration-text">
+                        "Em cada amanhecer, em cada pôr do sol, 
+                        em cada batida do meu coração... 
+                        você está presente, minha princesa."
+                    </p>
+                </div>
+            </div>
+            
+            <div class="infinity-symbol">
+                <div class="infinity"></div>
+                <p class="infinity-text">Amor Eterno</p>
+            </div>
+        </div>
+        
+        <!-- Scroll indicator -->
+        <div class="scroll-indicator">
+            <p class="scroll-text">Descubra nossa história</p>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+    
+    <!-- Seção do Mini-Jogo -->
+    <section class="game-section" id="gameSection">
+        <div class="container">
+            <div class="romantic-intro">
+                <h2 class="game-title">Um Jogo Especial Para Você, Minha Princesa</h2>
+                <p class="game-subtitle">Complete o jogo da memória e desbloqueie nossas lembranças mais preciosas!</p>
+                <div class="love-message">
+                    <p>"Cada carta que você vira revela um pedacinho do nosso amor infinito"</p>
+                </div>
+            </div>
+            
+            <div class="memory-game" id="memoryGame">
+                <div class="game-card" data-card="heart">
+                    <div class="card-inner">
+                        <div class="card-front">💕</div>
+                        <div class="card-back">❤️</div>
+                    </div>
+                </div>
+                <div class="game-card" data-card="heart">
+                    <div class="card-inner">
+                        <div class="card-front">💕</div>
+                        <div class="card-back">❤️</div>
+                    </div>
+                </div>
+                <div class="game-card" data-card="ring">
+                    <div class="card-inner">
+                        <div class="card-front">💕</div>
+                        <div class="card-back">💍</div>
+                    </div>
+                </div>
+                <div class="game-card" data-card="ring">
+                    <div class="card-inner">
+                        <div class="card-front">💕</div>
+                        <div class="card-back">💍</div>
+                    </div>
+                </div>
+                <div class="game-card" data-card="kiss">
+                    <div class="card-inner">
+                        <div class="card-front">💕</div>
+                        <div class="card-back">💋</div>
+                    </div>
+                </div>
+                <div class="game-card" data-card="kiss">
+                    <div class="card-inner">
+                        <div class="card-front">💕</div>
+                        <div class="card-back">💋</div>
+                    </div>
+                </div>
+                <div class="game-card" data-card="couple">
+                    <div class="card-inner">
+                        <div class="card-front">💕</div>
+                        <div class="card-back">👫</div>
+                    </div>
+                </div>
+                <div class="game-card" data-card="couple">
+                    <div class="card-inner">
+                        <div class="card-front">💕</div>
+                        <div class="card-back">👫</div>
+                    </div>
+                </div>
+                <div class="game-card" data-card="star">
+                    <div class="card-inner">
+                        <div class="card-front">💕</div>
+                        <div class="card-back">⭐</div>
+                    </div>
+                </div>
+                <div class="game-card" data-card="star">
+                    <div class="card-inner">
+                        <div class="card-front">💕</div>
+                        <div class="card-back">⭐</div>
+                    </div>
+                </div>
+                <div class="game-card" data-card="flower">
+                    <div class="card-inner">
+                        <div class="card-front">💕</div>
+                        <div class="card-back">🌹</div>
+                    </div>
+                </div>
+                <div class="game-card" data-card="flower">
+                    <div class="card-inner">
+                        <div class="card-front">💕</div>
+                        <div class="card-back">🌹</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="game-status">
+                <p class="moves-counter">Movimentos: <span id="movesCount">0</span></p>
+                <button class="restart-btn" id="restartBtn">✨ Reiniciar Jogo ✨</button>
+            </div>
+            
+            <div class="game-completion" id="gameCompletion" style="display: none;">
+                <h3 class="completion-title">Parabéns, Minha Princesa! 🎉</h3>
+                <p class="completion-message">Você desbloqueou o tesouro mais precioso: nossas lembranças de amor!</p>
+                <div class="completion-quote">
+                    <p>"Assim como você completou este jogo, você completou minha vida com amor"</p>
+                </div>
+                <button class="reveal-btn" id="revealBtn">💖 Ver Nossas Fotos do Coração 💖</button>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Seção da Galeria -->
+    <section class="gallery-section" id="gallerySection" style="display: none;">
+        <div class="container">
+            <div class="gallery-header">
+                <h2 class="gallery-title">Nossas Lembranças Mais Preciosas</h2>
+                <p class="gallery-subtitle">Cada foto conta uma história do nosso amor infinito</p>
+                <div class="love-quote-gallery">
+                    <p>"Você é minha princesa, minha rainha, minha vida inteira"</p>
+                </div>
+            </div>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item" data-image="1">
+                    <img src="images/image1.jpeg" alt="Álvaro e Gabriella - Momento Mágico 1" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-icon">💖</div>
+                        <p class="gallery-caption">Nosso primeiro momento mágico</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-image="2">
+                    <img src="images/image2.jpeg" alt="Álvaro e Gabriella - Momento Mágico 2" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-icon">💕</div>
+                        <p class="gallery-caption">Sorrisos que iluminam meu mundo</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-image="3">
+                    <img src="images/image3.jpeg" alt="Álvaro e Gabriella - Momento Mágico 3" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-icon">🌹</div>
+                        <p class="gallery-caption">Você é minha flor mais bela</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-image="4">
+                    <img src="images/image4.jpeg" alt="Álvaro e Gabriella - Momento Mágico 4" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-icon">⭐</div>
+                        <p class="gallery-caption">Minha estrela mais brilhante</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="final-love-message">
+                <div class="message-card">
+                    <h3>Para Minha Princesa Gabriella</h3>
+                    <p>Você é o amor da minha vida, minha razão de existir, minha felicidade completa. 
+                    Cada dia ao seu lado é um presente, cada sorriso seu é minha maior conquista. 
+                    Te amo mais que as palavras podem expressar, minha princesa adorada.</p>
+                    <p class="signature">Com todo meu amor, para sempre,<br><strong>Álvaro 💖</strong></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Modal da Galeria -->
+    <div class="modal" id="imageModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <img class="modal-image" id="modalImage" src="" alt="">
+            <div class="modal-navigation">
+                <button class="nav-btn prev-btn" id="prevBtn">‹</button>
+                <button class="nav-btn next-btn" id="nextBtn">›</button>
+            </div>
+            <div class="modal-caption" id="modalCaption">
+                <p>Nosso amor em cada detalhe</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-message">Para minha princesa, com amor eterno</p>
+                <div class="footer-hearts">
+                    <span class="heart-small">💕</span>
+                    <span class="heart-small">💖</span>
+                    <span class="heart-small">💕</span>
+                </div>
+                <p class="footer-signature">Álvaro & Gabriella - Amor Infinito</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
